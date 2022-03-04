@@ -28,7 +28,7 @@ def get_path(name):
 
 prefix = '##### '
 filepath = './README.md'
-temppath = filepath + '.tmp'
+temppath = f'{filepath}.tmp'
 with open(filepath, 'r') as lines:
     with open(temppath, 'w') as file:
         for line in lines:
